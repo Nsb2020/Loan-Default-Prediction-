@@ -8,7 +8,8 @@ Since not all customers pay back, the company needs experienced data scientist t
 These two fundamental drivers need to be determined at the point of each application to allow the credit grantor to make a calculated decision based on repayment odds, which in turn determines if an applicant should get a loan, and if so - what the size, price and tenure of the offer will be.
 
 ## Project Overview
-This project was aimed at predicting if a loan was good (1) or bad (0) using the borrower's information as the training set. It helps the SuperLender's loan officer make a calculated decision based on repayment odds, which in turn determines if an applicant should get a loan and, if so, what the size, price, and tenure of the offer will be.
+* This project was aimed at predicting if a loan was good (1) or bad (0) using the borrower's information as the training set. It helps the SuperLender's loan officer   make a calculated decision based on repayment odds, which in turn determines if an applicant should get a loan and, if so, what the size, price, and tenure of the   offer will be.
+* The model in this project was built using random forest classifiers and grid search to optimize the best parameters for the model.
 
 
 # Data
@@ -30,3 +31,16 @@ Below are what the columns of the data represent:
 * termdays: Term of loan
 * longitude_gps and latitude_gps: geographical location of the customer
 * good_bad_flag: (good = settled loan on time; bad = did not settled loan on time) - this is the target variable that we need to predict
+
+
+# Skills and Technologies
+* Programming (Python)
+* Data Preprocessing 
+* Exploratory Data Analysis
+* Data Visualization(Seaborn and Matplotlib)
+* Machine Learning 
+* Google Collobarotory Notebook
+
+# Model Selection
+
+Model_1 (the Random Forest Decision Classifier) has a precision score of 0.68, a recall score of 0.76, and an accuracy score of 0.7584. While Model_2 (the Gradient Bosting Decision Classifier) has a precision score of 0.67, a recall score of 0.75, and an accuracy score of 0.7538, Hence, taking all this classification report into consideration, Model_1 (the Random Forest Decision Classifier) will make a better prediction and would be a great fit to solve our business problem. Aside from the result metrics, Model_2 (Gradient Bosting Classifier) takes a longer period to fit the data set into the model as compared to Model_1 (Random Forest Classifier), which has a very short fitting period, and that can be of great advantage.
