@@ -7,7 +7,7 @@ Since not all customers pay back, the company needs experienced data scientist t
 
 These two fundamental drivers need to be determined at the point of each application to allow the credit grantor to make a calculated decision based on repayment odds, which in turn determines if an applicant should get a loan, and if so - what the size, price and tenure of the offer will be.
 
-## Project Overview
+## Project Objective
 * This project was aimed at predicting if a loan was good (1) or bad (0) using the borrower's information as the training set. It helps the SuperLender's loan officer   make a calculated decision based on repayment odds, which in turn determines if an applicant should get a loan and, if so, what the size, price, and tenure of the   offer will be.
 * The model in this project was built using random forest classifiers and grid search to optimize the best parameters for the model.
 
@@ -42,5 +42,10 @@ Below are what the columns of the data represent:
 * Google Collobarotory Notebook
 
 # Model Selection
+Two different ensemble models were selected and compared for this project (the Random Forest Decision Classifier and the Gradient Bosting Decision Classifier), and the best parameters for these models were optimized using grid search.
 
-Model_1 (the Random Forest Decision Classifier) has a precision score of 0.68, a recall score of 0.76, and an accuracy score of 0.7584. While Model_2 (the Gradient Bosting Decision Classifier) has a precision score of 0.67, a recall score of 0.75, and an accuracy score of 0.7538, Hence, taking all this classification report into consideration, Model_1 (the Random Forest Decision Classifier) will make a better prediction and would be a great fit to solve our business problem. Aside from the result metrics, Model_2 (Gradient Bosting Classifier) takes a longer period to fit the data set into the model as compared to Model_1 (Random Forest Classifier), which has a very short fitting period, and that can be of great advantage.
+# Notebook
+The jupyter notebook containing all the code and exploratory data analysis can be found [here]()
+
+
+
