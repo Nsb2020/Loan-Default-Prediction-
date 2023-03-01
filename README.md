@@ -45,7 +45,7 @@ Below are what the columns of the data represent:
 Two different ensemble models were selected and compared for this project (the Random Forest Decision Classifier and the Gradient Bosting Decision Classifier), and the best parameters for these models were optimized using grid search.
 
 # Notebook
-The jupyter notebook containing all the code and exploratory data analysis can be found [here]()
+The jupyter notebook containing all the code and exploratory data analysis can be found [here](https://github.com/Nsb2020/Loan-Default-Prediction-/blob/main/LOAN_PRED.ipynb)
 
 
 
